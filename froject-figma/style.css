@@ -1,0 +1,364 @@
+body {
+    background-color: black;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header-content {
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+ul {
+    padding-top: 25px;
+}
+
+
+li a:hover {
+    color: #5454D4;
+}
+
+ul li a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.blue-link {
+    color: #5454D4;
+}
+
+.header-button button {
+    background: #000;
+    width: 157px;
+    height: 44px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+}
+
+button:hover {
+    background-color: #1e1e78;
+}
+
+/* section1 */
+
+.left-side {
+    margin-top: 100px;
+}
+
+.left-title {
+    width: 582px;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px;
+    /* 105% */
+}
+
+.left-text {
+    width: 536px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    /* 185.714% */
+    letter-spacing: -0.657px;
+
+    margin: 30px 0px;
+}
+
+.left-button button {
+    width: 200px;
+    height: 45px;
+    flex-shrink: 0;
+    border: none;
+
+    border-radius: 4px;
+    background-color: #1e1e78;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#birinchi {
+    display: flex;
+}
+
+.vector img {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.round img {
+    position: absolute;
+    top: 130px;
+    left: 1200px;
+}
+
+.tri img {
+    position: absolute;
+    top: 630px;
+    left: 620px;
+}
+
+.add img {
+    position: absolute;
+    top: 650px;
+    left: 1230px;
+}
+
+/* section2 */
+
+.top-side {
+    align-items: center;
+    margin: 100px 0px 50px 0px;
+}
+
+.top-title {
+    width: 588px;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 116.667% */
+}
+
+.top-text {
+    width: 588px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Nunito Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    /* 185.714% */
+    letter-spacing: -0.657px;
+}
+
+.back img {
+    width: 1100px;
+    height: 650px;
+}
+
+.font img {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 1350px;
+    left: 630px;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+
+.swiper-text {
+    width: 695px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    /* 116.667% */
+
+    margin: 130px 0px 50px 215px;
+}
+
+.card {
+    background: #000;
+    text-align: center;
+    width: 300px;
+
+    margin: 0 auto;
+}
+
+
+
+.card-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+
+    margin: 10px 0px 20px 0px;
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: -0.5px;
+
+}
+
+.tri2 {
+    position: absolute;
+    top: 1800px;
+    left: 150px;
+}
+
+.add2 {
+    position: absolute;
+    top: 1930px;
+    left: 1200px;
+
+    width: 42px;
+    height: 42px;
+    transform: rotate(-31.418deg);
+    flex-shrink: 0;
+}
+
+.add3 {
+    width: 42px;
+    height: 42px;
+    transform: rotate(25.344deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 2240px;
+
+}
+
+
+
+
+
+/* section5 */
+
+
+.beshinchi-content {
+    align-items: center;
+    margin: 110px 0px;
+}
+
+.beshinchi-text {
+
+    width: 826px;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+
+
+.beshinchi-btn button {
+    width: 201px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5454D4;
+
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.add4 img {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 2400px;
+    left: 1200px;
+
+}
+
+.round3 img{
+
+    position: absolute;
+    top: 2690px;
+    left: 200px;
+    
+}
+
+
+/* footer-side */
+
+
+.footer-content {
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0px 60px 0px;
+    padding: 70px 0px 0px 0px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 35px;
+}
+
+.footer-link a {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.footer-link  :hover {
+    color: #5454D4;
+}
+
+.last-link a {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.last-link  :hover {
+    color: #5454D4;
+}
